@@ -11,7 +11,7 @@ fun main() {
     if (userInput != null) {
         when (userInput.toLowerCase()) {
             "ash" -> {
-                // Implement Ash functionality if needed
+                // Implement Ash function
             }
             "brock" -> {
                 while (playerHealth > 0 && badangHealth > 0) {
@@ -77,7 +77,7 @@ fun attack(damage: Int) {
 }
 
 fun badangAttack() {
-    val attacks = listOf(360, 600, 1100)
+    val attacks = listOf(360, 650, 1900,565,200,20,648,2100)
     val attackDamage = attacks[Random.nextInt(attacks.size)]
     playerHealth -= attackDamage
     if (playerHealth < 0) {
