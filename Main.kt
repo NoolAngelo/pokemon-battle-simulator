@@ -1,7 +1,7 @@
 import kotlin.random.Random
 
-var badangHealth: Int = 1000
-var playerHealth: Int = 1000
+var badangHealth: Int = 10000
+var playerHealth: Int = 10000
 
 fun main() {
     println("Characters: Ash, Brock, or Misty")
